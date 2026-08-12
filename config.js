@@ -19,11 +19,11 @@ export const CONFIG = {
   // A Google Apps Script endpoint (sync.gs) additionally lets
   // admin.html's photo-day mode see who already submitted online — the same
   // URL serves both purposes, so nothing else needs setting for that.
-  postUrl: '',
+  postUrl: 'https://script.google.com/macros/s/AKfycbxRMLpOL2BJfxHnE6Ar_zfhTRXn_Cnjy-taJ7-NCUqHetPoReVQ3jTqKbZ0crrexw_T/exec',
 
   // Optional. Matches the SECRET constant in sync.gs, if you set one there.
   // Only relevant with an Apps Script postUrl; ignored otherwise.
-  syncKey: '',
+  syncKey: 'e08ad3d89adaff2fad0c2b63c54c0754',
 
   // Optional friendly nudge, e.g. 'Sunday, September 6'. Blank hides it.
   deadline: '',
